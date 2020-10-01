@@ -21,8 +21,8 @@ public class EmployeeLinkedList {
         EmployeeNode removedNode = head;
         head = head.getNext();
         size--;
-        removedNode.setNext(null);
 
+        removedNode.setNext(null);
         return removedNode;
     }
 
