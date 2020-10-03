@@ -1,4 +1,4 @@
-package gent.datastructureandalgorithms.hashtables.hashtables_linearprobing;
+package gent.datastructureandalgorithms.hashtables.linearprobing;
 
 public class SimpleHashtable {
 
@@ -10,13 +10,13 @@ public class SimpleHashtable {
 
 
     public void put(String key, Employee employee){
-
         int hashedKey = hashKeys(key);
         if(occupied(hashedKey)){
 
             //this is called Linear Probing
             //check the whole hashTable, if to the end, back to index=0;
             // Hit the stopIndex means checked the whole hashtable
+
             int stopIndex = hashedKey;
 
             if(hashedKey==hashtable.length-1){
@@ -26,7 +26,7 @@ public class SimpleHashtable {
                 hashedKey++;
             }
 
-            while(occupied(hashedKey) && hashedKey!=stopIndex){
+            while(occupied(hashedKey) && hashedKey != stopIndex){
                 hashedKey = (hashedKey +1) % hashtable.length;
             }
         }

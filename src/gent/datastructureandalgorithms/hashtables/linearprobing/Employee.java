@@ -1,4 +1,4 @@
-package gent.datastructureandalgorithms.hashtables.hashtables_linearprobing;
+package gent.datastructureandalgorithms.hashtables.linearprobing;
 
 public class Employee {
     private String firstName;
