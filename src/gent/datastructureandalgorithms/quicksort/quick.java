@@ -40,7 +40,7 @@ public class quick{
                 j--;
             }
 
-            // If we have found a value in the left list which is larger than
+            // If we33s have found a value in the left list which is larger than
             // the pivot element and if we have found a value in the right list
             // which is smaller than the pivot element then we exchange the
             // values.
