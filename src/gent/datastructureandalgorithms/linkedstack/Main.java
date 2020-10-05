@@ -1,7 +1,6 @@
 package gent.datastructureandalgorithms.linkedstack;
 
-import gent.datastructureandalgorithms.LinkedList.Employee;
-import gent.datastructureandalgorithms.LinkedList.LinkedList;
+
 
 public class Main {
 
@@ -20,10 +19,10 @@ public class Main {
         stack.push(ricky);
         stack.push(joe);
         stack.push(tim);
-        
+
         stack.printStack();
 
-        stack.peek();
+        System.out.println(stack.peek());
 
         stack.pop();
         stack.pop();
