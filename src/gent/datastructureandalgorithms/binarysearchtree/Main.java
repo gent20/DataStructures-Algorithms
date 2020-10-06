@@ -21,10 +21,17 @@ public class Main {
 //        System.out.println();
 //
 //        System.out.println(intTree.get(3).getData());
+//
+//        System.out.println(intTree.max());
+//        System.out.println(intTree.min());
 
-        System.out.println(intTree.max());
-        System.out.println(intTree.min());
+        intTree.traverseInOrder();
+        System.out.println();
 
+        intTree.delete(3);
+
+        intTree.traverseInOrder();
+        System.out.println(" ");
 
 
 
