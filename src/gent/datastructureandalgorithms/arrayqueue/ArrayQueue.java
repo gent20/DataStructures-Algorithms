@@ -56,5 +56,11 @@ public class ArrayQueue{
         }
     }
 
+    public Employee[] getQueue() {
+        return queue;
+    }
 
+    public void setQueue(Employee[] queue) {
+        this.queue = queue;
+    }
 }
