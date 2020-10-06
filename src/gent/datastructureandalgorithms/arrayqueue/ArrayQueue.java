@@ -7,7 +7,7 @@ public class ArrayQueue{
     private int front;
     private int back;
 
-    private ArrayQueue(int capacity){
+    public ArrayQueue(int capacity){
         queue = new Employee[capacity];
     }
 
