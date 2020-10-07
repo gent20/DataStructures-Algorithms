@@ -5,16 +5,16 @@ public class Main {
 
         Tree intTree = new Tree();
 
-        intTree.insert(23);
-        intTree.insert(2);
-        intTree.insert(3);
-        intTree.insert(22);
-        intTree.insert(26);
-        intTree.insert(13);
         intTree.insert(25);
-        intTree.insert(5);
-        intTree.insert(19);
-        intTree.insert(24);
+        intTree.insert(20);
+        intTree.insert(15);
+        intTree.insert(27);
+        intTree.insert(30);
+        intTree.insert(29);
+        intTree.insert(26);
+        intTree.insert(22);
+        intTree.insert(32);
+        intTree.insert(17);
 
 //        intTree.traverseInOrder();
 //
@@ -28,10 +28,10 @@ public class Main {
         intTree.traverseInOrder();
         System.out.println();
 
-        intTree.delete(3);
+//        intTree.delete(3);
 
-        intTree.traverseInOrder();
-        System.out.println(" ");
+        intTree.traversePreOrder();
+        System.out.println();
 
 
 
