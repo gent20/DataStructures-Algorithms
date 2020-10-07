@@ -33,6 +33,9 @@ public class Main {
         intTree.traversePreOrder();
         System.out.println();
 
+        intTree.traversePostOrder();
+        System.out.println();
+
 
 
     }

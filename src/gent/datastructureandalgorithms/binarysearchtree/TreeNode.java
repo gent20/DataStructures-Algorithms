@@ -60,13 +60,13 @@ public class TreeNode {
 
     public void traversePostOrder(){
         if(leftChild !=null){
-            leftChild.traversePreOrder();
+            leftChild.traversePostOrder();
         }
         if(rightChild != null){
-            rightChild.traversePreOrder();
+            rightChild.traversePostOrder();
         }
 
-        System.out.print(data + " ");
+        System.out.print(data + " , ");
     }
 
 
